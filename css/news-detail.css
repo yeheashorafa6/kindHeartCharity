@@ -1,0 +1,136 @@
+
+:root {
+    --white-color: #ffffff;
+    --primary-color: #5bc1ac;
+    --secondary-color: #5a6f80;
+    --section-bg-color: #f0f8ff;
+    --site-footer-bg-color: #44525d;
+    --custom-btn-bg-color: #597081;
+    --custom-btn-bg-hover-color: #5bc1ac;
+    --dark-color: #000000;
+    --p-color: #717275;
+    --border-color: #e9eaeb;
+    --body-font-family: 'Metropolis', sans-serif;
+    --h1-font-size: 52px;
+    --h2-font-size: 46px;
+    --h3-font-size: 32px;
+    --h4-font-size: 28px;
+    --h5-font-size: 24px;
+    --h6-font-size: 22px;
+    --p-font-size: 16px;
+    --btn-font-size: 18px;
+    --copyright-font-size: 14px;
+    --border-radius-large: 100px;
+    --border-radius-medium: 20px;
+    --border-radius-small: 10px;
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+}
+
+
+/*    SECTION NEWS DETAIL */
+
+.news-detail-section {
+    background-image: url(../images/news/close-up-volunteer-oganizing-stuff-donation.jpg);
+    padding-bottom: 200px;
+    padding-top: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+
+}
+
+.news-detail-section .section-overlay {
+    background: rgba(0, 0, 0, 0.35);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.news-block-info blockquote{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 90px 50px 50px 50px;
+    text-align: center;
+    background-color: var(--section-bg-color);
+    border-radius: var(--border-radius-small);
+    color: var(--site-footer-bg-color);
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.news-block-info blockquote::before{
+    content: "“";
+    line-height: 1rem;
+    font-size: 100px;
+    color: var(--custom-btn-bg-color);
+    display: block;
+}
+
+.news-details-image{
+    display: block;
+    border-radius: var(--border-radius-medium);
+}
+
+.news-block-info a{
+    color: var(--p-color) !important;
+}
+.news-block-info a:hover{
+    color: var(--primary-color) !important;
+}
+
+.social-share .social-icon-link:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color) !important;
+}
+
+.social-share .social-icon-link {
+    background: #44525d;
+    color: var(--white-color) !important;
+    border-radius: 100px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    margin-right: 5px;
+    line-height: 38px;
+
+
+}
+
+
+/* MEDIA */
+
+@media screen and (max-width: 480px){
+h4 {
+    font-size: 22px !important;
+}
+}
+@media screen and (max-width: 991px){
+h4 {
+    font-size: 28px ;
+}
+}
+
+@media screen and (max-width: 480px){
+    .tags-block-social  {
+        margin-left: 5.5rem;
+        margin-top: 10px;
+    }
+    }
+
+    @media screen and (max-width: 480px){
+        .tags-block  {
+            margin-left: 2rem;
+            
+        }
+        }
+
+
+
+

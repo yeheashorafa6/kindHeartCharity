@@ -1,0 +1,31 @@
+
+/*    SECTION NEWS */
+
+.news-detail-section {
+    background-image: url(../images/news/close-up-volunteer-oganizing-stuff-donation.jpg);
+    padding-bottom: 200px;
+    padding-top: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+
+}
+
+.news-detail-section .section-overlay {
+    background: rgba(0, 0, 0, 0.35);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.news-detail-section h1 {
+    color: var(--white-color) !important;
+    position: relative;
+    font-size: 52px !important;
+    font-weight: bolder;
+}
+
